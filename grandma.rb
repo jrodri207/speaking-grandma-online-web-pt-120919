@@ -1,11 +1,10 @@
 def speak_to_grandma
-  speak = "i love you grandma!" 
-  
+  speak = "I LOVE YOU GRANDMA!" 
   if speak == "Bum"
      puts "HUH?! SPEAK UP, SONNY!"
   elsif speak == "return"
      puts "NO, NOT SINCE 1938!"
-  else speak.uppercase == "i love you grandma!"
+  else speak.uppercase == "I LOVE YOU GRANDMA!"
      puts "I LOVE YOU TOO PUMPKIN!"
    end 
  end 
